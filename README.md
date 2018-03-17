@@ -58,7 +58,7 @@ You have to run this commands inside the working repository
 
 ```R
 docker build -t microservice . 
-docker run --rm -p 80:8000 microservice
+docker run --rm -p 8000:80 microservice
 ```
 
 Now you just have to push your images on your desired cloud inside a docker containers.
